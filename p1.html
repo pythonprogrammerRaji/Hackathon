@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+</head>
+<body>
+    <center>
+        <h1>Problem-1</h1>
+    </center>
+    
+
+    <script>
+        let x = [1, 2, 4, 5, 7];
+
+        let length = x.length;
+        console.log(x);
+        for( i=0 ; i <= x.length ; i++){
+            let p = x[i] + x[i-1];
+            if (p === 3){
+                document.write("Missing Number :" +p)
+            }
+        }
+       
+    </script>
+</body>
+</html>

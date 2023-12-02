@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Problem-5</h1>
+    </center>
+
+    <h4>Case1</h4>
+    <script>
+        var num = [1, 2, 3];
+        
+        let length = num.length;
+        console.log(length);
+
+       let key = num.reverse();
+
+
+
+        document.write("Output :[["+key+"]]");
+
+        for (i=0; i<num.length; i++){
+            for(j=0; j<=num.length; j++){
+                for(k=0; k<=num.length; k--){
+             let value = (num[i],num[j],num[k])
+                document.write("Output :" +value);
+            }
+            }
+        }
+    </script>
+
+    <hr>
+
+    <h4>Case2</h4>
+    <script>
+        var num = [0, 1];
+        var num1 = [1,0];
+        
+        let value = num.length;
+        console.log(value);
+
+        let key1 = num.reverse()                                    ;
+        
+        let k = num1.reverse();
+      
+       
+
+       
+        document.write("Output : [["+k+"] ["+key1+"]]")
+    </script>
+
+
+</body>
+</html>
